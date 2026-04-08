@@ -26,18 +26,21 @@ Streamlit
 PyTorch
 NumPy
 Matplotlib
+
 🔋 Key Features
 ✅ Real Neural Network (trained on dataset)
 ✅ Early-Exit Mechanism
 ✅ Battery-Based Adaptive Threshold
 ✅ Energy & Latency Comparison
 ✅ Interactive Web Interface
+
 📊 System Workflow
 Input data is fed into neural network
 Features are extracted layer by layer
 Confidence is calculated at each stage
 Model exits early if threshold is met
 Outputs prediction with reduced computation
+
 📈 Performance Metrics
 Latency → Time taken for inference
 Energy Consumption → Based on layers executed
@@ -78,4 +81,3 @@ Varun Sai Naga
 
 SMART DEPTH demonstrates how adaptive neural networks can significantly reduce computation without compromising performance, making it suitable for real-world energy-constrained environments.
 
-⭐ Pro Tip
