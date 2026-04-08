@@ -1,5 +1,4 @@
-*SMART DEPTH – Adaptive Neural Network Inference System*
-
+🚀 SMART DEPTH – Adaptive Neural Network Inference System
 📌 Overview
 
 SMART DEPTH is an energy-efficient AI system that dynamically adjusts neural network computation using an early-exit mechanism. Instead of processing all layers every time, the model exits early when sufficient confidence is achieved, reducing latency and energy consumption.
@@ -9,16 +8,17 @@ Implement an adaptive inference system using neural networks
 Reduce computational cost and energy usage
 Maintain prediction accuracy with minimal processing
 Demonstrate real-time AI optimization for edge devices
+
 🧠 Methodology
 
-The system uses a Feedforward Neural Network (FNN) with multiple fully connected layers.
+The system uses a Feedforward Neural Network (FNN) with multiple fully connected layers:
 
 Input is processed layer by layer
 At each layer, confidence is calculated
 If confidence ≥ threshold → early exit
 Else → continue deeper layers
 
-Threshold is dynamically adjusted based on battery level.
+👉 Threshold is dynamically adjusted based on battery level.
 
 ⚙️ Technologies Used
 Python
@@ -35,7 +35,7 @@ Matplotlib
 ✅ Interactive Web Interface
 
 📊 System Workflow
-Input data is fed into neural network
+Input data is fed into the neural network
 Features are extracted layer by layer
 Confidence is calculated at each stage
 Model exits early if threshold is met
@@ -45,12 +45,6 @@ Outputs prediction with reduced computation
 Latency → Time taken for inference
 Energy Consumption → Based on layers executed
 Exit Layer → Indicates efficiency
-
-🧪 Test Plan (Summary)
-Functional testing of inference and early-exit logic
-Performance testing for latency and energy
-UI testing for user interaction
-Compatibility testing across browsers
 
 ⚠️ Limitations
 Model is trained with limited epochs
@@ -70,7 +64,7 @@ streamlit run app.py
 🌐 Deployment
 
 The project is deployed using Streamlit Community Cloud.
-👉 (Add your deployment link here)
+👉https://adaptive-depth-inference-engine-aicamgxe6pjzkmhofpqpuo.streamlit.app/
 
 👨‍💻 Authors
 Shiva Goud
@@ -80,4 +74,3 @@ Varun Sai Naga
 🎯 Conclusion
 
 SMART DEPTH demonstrates how adaptive neural networks can significantly reduce computation without compromising performance, making it suitable for real-world energy-constrained environments.
-
